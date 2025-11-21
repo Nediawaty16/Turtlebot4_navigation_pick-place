@@ -1,7 +1,13 @@
-# Turtlebot4_navigation_pick-place
- This project was created for the Midterm Exam, with the goal of moving the Turtlebot4 to the pick location by sounding the buzzer once, then moving to the place location by sounding the buzzer twice.
-This project uses ROS 2 and the Nav2 navigation system.
+# Turtlebot4_navigation_pick and place
+
+Proyek ini dibuat untuk memenuhi Ujian Tengah Semester, dengan tujuan mengimplementasikan sistem navigasi otonom pada Turtlebot4.
+Turtlebot4 bergerak menuju lokasi pick dan mengambil barang sambil membunyikan buzzer satu kali, kemudian melanjutkan perjalanan ke lokasi place di Lobby Brail dan mengantar barang sambil membunyikan buzzer dua kali sebagai penanda.
+Proyek navigasi ini dibangun menggunakan ROS 2 dan memanfaatkan stack Nav2 untuk melakukan lokalisasi, pemetaan, perencanaan jalur, eksekusi navigasi otonom.
 
 ----------------------------------------------------------------------------------------------------
 
+*Step Pengengerjaan*
+1. Buat Folder Workspace
+mkdir kelompok4a_uts/src
+cd kelompok4a_uts/src
 
