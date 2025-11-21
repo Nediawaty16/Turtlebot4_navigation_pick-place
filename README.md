@@ -1,4 +1,4 @@
-## Turtlebot4_navigation_pick and place
+## Turtlebot4_navigation_pick and place ##
 
 Proyek ini dibuat untuk memenuhi Ujian Tengah Semester, dengan tujuan mengimplementasikan sistem navigasi otonom pada Turtlebot4.
 Turtlebot4 bergerak menuju lokasi pick dan mengambil barang sambil membunyikan buzzer satu kali, kemudian melanjutkan perjalanan ke lokasi place di Lobby Brail dan mengantar barang sambil membunyikan buzzer dua kali sebagai penanda.
