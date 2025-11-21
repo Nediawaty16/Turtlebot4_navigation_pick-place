@@ -6,11 +6,25 @@ Proyek navigasi ini dibangun menggunakan ROS 2 dan memanfaatkan stack Nav2 untuk
 
 ----------------------------------------------------------------------------------------------------
 
-#*Step Pengengerjaan*
+# *Step Pengengerjaan proyek*
+----
 1. Buat Folder Workspace
 ```bash
 mkdir kelompok4a_uts/src
 cd kelompok4a_uts/src
+```
+2. Membuat Package dan Dependencies 
+```bash
+source /opt/ros/jazzy/setup.bash
+ros2 pkg create --build-type ament_cmake --node-name navkel4a navkel4a --dependencies rclcpp nav2_msgs rclcpp_action tf2
+```
+3. Lalu Colcon Build
+```bash
+colcon build
+```
+Pada perintah ini melakukan kompilasi seluruh package dalam workspace, lalu menghasilkan folder install/ yang berisi executable (node), konfigurasi, dan library. Setelah menyelesaikan proses build, environment pada workspace dapat diaktifkan dengan menggunakan:
+```bash
+source install/setup.bash
 ```
 
 
